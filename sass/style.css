@@ -1,20 +1,322 @@
 body {
-  font-family: 'Comfortaa';
-  font-weight: 400;
+  font-family: 'Comfortaa' !important;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #550B23 !important;
+}
+
+body .main-display {
+  margin-top: 30px;
+  width: 95%;
+  height: 90vh;
+  background-color: #F1CFB4;
+  border-radius: 46px;
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 body .main-display .top-menu {
-  border: 1px solid red;
+  margin-top: 30px;
+  height: 50px;
+}
+
+body .main-display .top-menu .menu-items {
+  height: 100%;
+}
+
+body .main-display .top-menu .menu-items .col-md-1 {
+  height: 100%;
+  padding: 0px;
+}
+
+body .main-display .top-menu .menu-items .col-md-1 p {
+  text-align: center;
+  line-height: 45px;
 }
 
 body .main-display .top-menu .menu-items .logo-item p {
   font-family: 'Rochester';
-  font-size: 40px;
+  font-size: 30px;
+  text-align: left !important;
 }
 
-body .main-display .main-box .text-box .main-title h1 {
+body .main-display .main-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+body .main-display .main-box .col-md-2 {
+  margin-left: -90px;
+}
+
+body .main-display .main-box .text-box {
+  padding-left: 0;
+}
+
+body .main-display .main-box .text-box .box-margin {
+  width: 70%;
+}
+
+body .main-display .main-box .text-box .box-margin .main-title h1 {
   font-family: 'Roboto';
   font-weight: 900;
   font-size: 64px;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body .main-display .main-box .text-box .box-margin .main-description {
+  margin-top: 20px;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+body .main-display .main-box .text-box .box-margin a {
+  width: 30%;
+  text-decoration: none;
+  color: white;
+}
+
+body .main-display .main-box .text-box .box-margin a .button-catalog {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 45px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #550B23;
+  border-radius: 9px;
+  -webkit-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body .choose-genre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  display: flex;
+  width: 95%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .choose-genre .title-genre {
+  text-align: center;
+}
+
+body .choose-genre .title-genre p {
+  font-size: 25px;
+}
+
+body .choose-genre .block-choose-genre {
+  width: 80%;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .choose-genre .block-choose-genre .genre-item {
+  padding: 0;
+}
+
+body .choose-genre .block-choose-genre .genre-item .circle-background-genre {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  background-color: #550B23;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .choose-genre .block-choose-genre .genre-item .circle-background-genre img {
+  width: 85px;
+  height: 85px;
+}
+
+body .choose-genre .block-choose-genre .genre-item .drama-genre {
+  margin-top: 80px;
+}
+
+body .choose-genre .block-choose-genre .genre-item .history-genre, body .choose-genre .block-choose-genre .genre-item .art-genre {
+  margin-top: 50px;
+}
+
+body .choose-genre .block-choose-genre .genre-item p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+body .found-book-block {
+  margin: 50px;
+  width: 100%;
+}
+
+body .found-book-block .title-found-book {
+  text-align: center;
+  font-size: 25px;
+}
+
+body .found-book-block .box-found-book {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .found-book-block .box-found-book .found-item {
+  width: 80%;
+}
+
+body .found-book-block .box-found-book .found-item .form-found {
+  font-size: 17px;
+  text-align: center;
+  height: 40px;
+}
+
+body .found-book-block .box-found-book .found-item .form-found input {
+  height: 40px;
+  -webkit-box-shadow: 1px 2px 4px gray;
+          box-shadow: 1px 2px 4px gray;
+  border-radius: 9px;
+  border: 3px solid #F1CFB4;
+  background-color: #F1CFB4;
+  color: white !important;
+}
+
+body .found-book-block .box-found-book .found-item .form-found input::-moz-placeholder {
+  color: #550B23;
+}
+
+body .found-book-block .box-found-book .found-item .form-found input::-webkit-input-placeholder {
+  color: #550B23;
+}
+
+body .found-book-block .box-found-book .found-item .form-found .found-autor {
+  margin-right: 20px;
+}
+
+body .found-book-block .box-found-book .found-item .form-found .found-title {
+  margin-right: 20px;
+}
+
+body .found-book-block .box-found-book .found-item .form-found button {
+  height: 40px;
+  background: #550B23;
+  border-radius: 10px;
+  color: white;
+  border: 3px solid #550B23;
+  -webkit-box-shadow: 1px 2px 4px gray;
+          box-shadow: 1px 2px 4px gray;
+}
+
+body footer {
+  width: 100%;
+  height: 120px;
+}
+
+body footer .box-footer {
+  background-color: #F1CFB4;
+  border-radius: 15px;
+  height: 100%;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 1px 2px 4px gray;
+          box-shadow: 1px 2px 4px gray;
+}
+
+body footer .box-footer .box-inline {
+  margin-left: 5px;
+  line-height: 120px;
+}
+
+body footer .box-footer .box-inline .text-footer {
+  text-align: center;
+  height: 100%;
+  font-size: 17px;
+}
+
+body footer .box-footer .box-inline .social-box {
+  margin-right: 30px;
+  width: auto;
+  text-align: right;
+}
+
+body footer .box-footer .box-inline .social-box .soc-item {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+body footer .box-footer .box-inline .social-box .soc-item .social {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #550B23;
+  color: white;
+  text-align: center;
+  font-family: fontawesome;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 17px;
+  -webkit-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body footer .box-footer .box-inline .social-box .soc-item .social-tg {
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */
