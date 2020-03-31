@@ -13,7 +13,7 @@
 </head>
 <body>
     <section class="main-display">
-       
+       <?php include 'php/header.php' ;?>
         <div class="main-box row">
             <div class="col-md-3 col-md-offset-1 text-box">
                 <div class="box-margin">
